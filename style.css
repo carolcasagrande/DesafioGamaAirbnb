@@ -1,0 +1,274 @@
+
+#container{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2px;
+}
+
+#cabecalho{
+    background-color: white;
+    border-radius: 5px;
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#cabecalho a{
+    color: gray;
+    text-decoration: unset;
+    margin:0 5px;    
+    float: right;
+    text-align: center;
+    padding: 10px 15px; 
+    font-size: 20px;    
+    font-weight: bold;
+}
+
+#navbar{
+    width: 100%;
+    margin-top: 35px;
+}
+
+#navbar a button{
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgb(219, 159, 159) 3px 4px 3px;
+    color:rgb(219, 159, 159);
+    text-decoration: unset;
+    margin:0 5px;    
+    float: right;
+    text-align: center;
+    font-size: 15px;    
+    padding: 5px 5px;
+    font-weight: bold;
+    border: rgb(219, 159, 159);
+}
+
+.logo img{
+    width: 65px;
+    height: 65px;
+    border-radius: 8%;
+    margin-left: 15px;
+    margin-bottom: auto;
+    margin-top: 60px;
+    margin-right: 20px; 
+}
+
+.logo h4{
+    color: rgb(219, 159, 159);
+    align-items: center;
+    margin-top: auto;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+#navbar2 {
+    margin-top:80px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#navbar2 a{    
+    color: gray;
+    text-decoration: unset;
+    font-size: 20px;  
+    margin-right: 20px;
+    
+}
+
+#dadosBusca {
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 10px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+#dadosBusca button{
+    background-color: rgb(219, 159, 159);
+    margin-left: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(216, 111, 128);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+#dadosBusca input{
+    border: 1px solid rgb(216, 209, 209);
+    border-radius: 10px;
+}
+
+#titulo {
+    margin-top: 30px;
+    color: rgb(219, 159, 159);
+    font-size: 14px; 
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.cardGama {       
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+ 
+.item {    /*cada card*/
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: gray;
+    text-align: center;
+    margin: 30px 10px 0px;
+    max-width: 100%;
+    box-shadow: lightgray 3px 4px 3px;
+    border-radius: 8px;
+}
+
+.item  img {   
+    width: 100%;
+    height: 200px; 
+    border-radius: 8px 8px 0 0;
+}
+
+#tipoPropriedade {
+    color: gray;
+    font-size: 14px;
+}
+
+#precoPropriedade {
+    color:gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#nomePropriedade {
+    color: rgb(219, 159, 159);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.card-deck{
+    align-items: center;
+
+}
+
+#tituloDestaque{
+    margin-top: 80px;
+    color: rgb(219, 159, 159);
+    font-size: 14px; 
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: 'Merriweather', serif;
+}
+
+.Destaques{
+    margin-top: 20px;
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.Destaques .card{
+    margin-right: 10px;
+}
+.Destaques .card img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+}
+
+.Destaques .card-title{
+    color: rgb(219, 159, 159);
+}
+
+.Destaques .card-text{
+    text-decoration: unset;
+    color: gray;
+}
+
+.Destaques a{
+    text-decoration: unset;
+    color: gray;
+    font-weight: bold;
+}
+
+#tituloDestaque2{
+    color: rgb(219, 159, 159);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.Destaque2 .column {
+    float: left;
+    width: 22%;
+    padding: 10px;
+  }
+
+.Destaque2 .column h2 {
+    color: rgb(219, 159, 159);
+}
+
+.Destaque2 .column h3 {
+    color:gray;
+}
+
+.Destaque2 .column a{
+    text-decoration: unset;
+    color: gray;
+  }
+  
+  /* Clear floats after the columns */
+.Destaque2 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Create four equal columns that floats next to each other */
+.Destaque3 .column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    background-color: rgb(245, 212, 212);
+
+  }
+
+.Destaque3 .column h5 {
+    color:  black;
+    
+}
+
+.Destaque3 .column a{
+    text-decoration: unset;
+    color: gray;
+    
+  }
+  
+  /* Clear floats after the columns */
+.Destaque3 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+footer {
+    text-align: center;
+
+}
+footer img{
+    width:1.5%;
+
+}
